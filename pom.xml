@@ -65,4 +65,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshot</id>
+            <url>https://nexus.dsx.cool/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-release</id>
+            <url>https://nexus.dsx.cool/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 </project>
